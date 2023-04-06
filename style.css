@@ -82,7 +82,7 @@ gap: 5rem;
 margin: 4rem auto;
 padding: 0 1rem;
 padding-bottom:8;
-background-color: aqua;
+
 }
 .faded-section
 {
@@ -101,7 +101,19 @@ background-color: aqua;
    gap: 20px;
    justify-content: center;
    justify-items: center;
-   background-color: black;
-   color: aqua;
+  
+  
+
+}
+.hero-section-heading
+{
+    font-size: 35px;
+    color: #343d68;
+    font-weight: 500;
+}
+.role
+{
+    color: rgb(52, 52, 245);
+    font-weight: 800;
 
 }
