@@ -117,3 +117,45 @@ padding-bottom:8;
     font-weight: 800;
 
 }
+.hero-section-subheading{
+    font-size: 45px;
+    line-height: 45px;
+}
+.hero-section-description{
+    margin-top: 1rem;
+    width: 70%;
+    font-weight:  500;
+}
+
+
+.button-pink
+{
+    background-color: rgb(240, 89, 35);
+    height:30px;
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    font-size: 18px;
+    box-shadow: 5px 5px 5px black;
+    position: relative;
+    z-index: +1;
+}
+.button-pink::before{
+    content:"";
+    background-color: black;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transform:scaleX(0);
+    z-index: -1;
+    transform-origin: left;
+    transition: 1s;
+}
+.button-pink:hover::before
+{
+    transform:scaleX(1);
+    
+}
