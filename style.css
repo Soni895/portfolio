@@ -159,3 +159,10 @@ padding-bottom:8;
     transform:scaleX(1);
     
 }
+.hero-section-right
+{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
