@@ -506,7 +506,7 @@ left:10%;
     background-repeat: no-repeat;
    
 }
-@media (max-width:1300px) {
+@media (max-width: 700px) {
     .page-header {
       padding-top: 30px;
       color: var(--bgOrange);
