@@ -347,6 +347,7 @@ padding-bottom:8;
     display: flex;
      gap:120px;
     flex-direction: column ;
+    
 }
 .project-card{
     width:90%;
@@ -422,11 +423,11 @@ padding-bottom:8;
     gap:1em;
     transition: 0.4s;
 }
-.project-content-right
+/* .project-conten-right
 {
-right: 10%;
+ margin-right: 10%;
 
-}
+} */
 .project-content-left
 {
 
@@ -490,6 +491,7 @@ left:10%;
     background-image: url(./images/projects/Project2.png);
     background-size: cover;
     background-repeat: no-repeat;
+  
 }
 #project3
 {
@@ -502,4 +504,11 @@ left:10%;
     background-image: url(./images/projects/Project4.png);
     background-size: cover;
     background-repeat: no-repeat;
+   
 }
+@media (max-width:500px){
+    .project-content-left
+{
+
+left:0%;
+}}
