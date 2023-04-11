@@ -355,12 +355,7 @@ padding-bottom:8;
     box-shadow: 0px 0px 40px #1f1f1f;   
    
 }
-#project1
-{
-    background-image: url(./images/projects/Project2.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+
 .project-card::after{
     content:"";
     position: absolute;
@@ -483,3 +478,28 @@ left:10%;
 .project-card:hover .project-content{
     transform:scale(1.1);
   }
+
+  #project1
+{
+    background-image: url(./images/projects/Project1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#project2
+{
+    background-image: url(./images/projects/Project2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#project3
+{
+    background-image: url(./images/projects/Project3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#project4
+{
+    background-image: url(./images/projects/Project4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
