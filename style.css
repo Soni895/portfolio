@@ -655,3 +655,10 @@ top:20%;
     margin: 15px 0 ;
 
 }
+
+.contuctus-form-container
+{
+    /* background-color: rgb(231,231,231) ; */
+    background-color: blue;
+    width: 100%;
+}
